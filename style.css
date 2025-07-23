@@ -14,6 +14,9 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+body {
+  background-color: #f5f8ff;
+}
 
 /* Shared Style */
 .container {
@@ -25,6 +28,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.title-primary {
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 12px;
+}
+.title-primary span {
+  color: #e95a08;
+  font-family: "Noto Serif", serif;
+}
+.subtitle-primary {
+  font-size: 22px;
+  color: #00000080;
 }
 
 /* Navbar Style */
@@ -49,4 +67,23 @@
 }
 .nav-cart i {
   margin-right: 11px;
+}
+
+/* Banner section style */
+.banner-container {
+  margin-top: 120px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-title {
+  font-size: 65px;
+}
+.banner-image {
+  width: 50%;
+}
+.banner-image img {
+  width: 100%;
 }
