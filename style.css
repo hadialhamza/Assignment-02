@@ -1,0 +1,34 @@
+/* Google Fonts */
+
+.font-noto {
+  font-family: "Noto Serif", serif;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* Universal Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Shared Style */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 98%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar Style */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
