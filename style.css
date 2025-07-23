@@ -87,3 +87,14 @@ body {
 .banner-image img {
   width: 100%;
 }
+
+/* Plants section style*/
+.plant-section-container {
+  text-align: center;
+  margin-top: 120px;
+}
+.plants-subtitle {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
