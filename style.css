@@ -30,5 +30,23 @@
 /* Navbar Style */
 .navbar {
   justify-content: space-between;
-  align-items: center;
+  margin-top: 20px;
+}
+.nav-links {
+  margin-right: 48px;
+}
+.nav-links ul {
+  gap: 48px;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #8987a1;
+}
+#home {
+  font-weight: 700;
+  color: #252432;
+}
+.nav-cart i {
+  margin-right: 11px;
 }
