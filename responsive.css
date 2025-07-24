@@ -7,6 +7,12 @@
 
 /* Medium device up to 1024px*/
 @media screen and (max-width: 1024px) {
+  .title-primary {
+    font-size: 38px;
+  }
+  .subtitle-primary {
+    font-size: 18px;
+  }
   .banner-container {
     margin-top: 50px;
     flex-direction: column-reverse;
@@ -22,12 +28,18 @@
   .banner-image {
     width: 100%;
   }
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* Small device up to 640px*/
 @media screen and (max-width: 640px) {
   .container {
     width: 95%;
+  }
+  .title-primary {
+    font-size: 24px;
   }
   .subtitle-primary {
     font-size: 14px;
@@ -46,5 +58,21 @@
   }
   .banner-title {
     font-size: 30px;
+  }
+  .plant-section-container {
+    margin-top: 65px;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    gap: 10px;
+  }
+  .card-title,
+  .card-price {
+    font-size: 16px;
+  }
+  .card-btn {
+    padding: 16px 0;
   }
 }
