@@ -41,6 +41,18 @@
     align-items: center;
     margin-top: 80px;
   }
+  .latest-deal-card-container {
+    grid-template-columns: 1fr;
+  }
+  #latest-card-2 {
+    grid-column: auto;
+  }
+  #latest-card-2 h3 {
+    font-size: 20px;
+  }
+  #latest-card-2 button {
+    font-size: 18px;
+  }
 }
 
 /* Small device up to 640px*/
@@ -91,5 +103,11 @@
   .plants-lover-container {
     margin-top: 40px;
     gap: 18px;
+  }
+  .latest-deal-card-container {
+    margin-top: 45px;
+  }
+  .latest-deal-subtitle {
+    width: 90%;
   }
 }
