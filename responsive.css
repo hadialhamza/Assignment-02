@@ -104,10 +104,20 @@
     margin-top: 40px;
     gap: 18px;
   }
-  .latest-deal-card-container {
+  .latest-deal-card-container,
+  .join-section {
     margin-top: 45px;
   }
   .latest-deal-subtitle {
     width: 90%;
+  }
+  .join-container {
+    padding: 100px 0;
+  }
+  .join-input {
+    width: 90%;
+  }
+  .join-btn {
+    padding: 12px 20px;
   }
 }

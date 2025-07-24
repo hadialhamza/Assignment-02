@@ -231,17 +231,18 @@ body {
 
 /* Join Section Style */
 .join-section {
-  min-height: 533px;
   margin-top: 120px;
   background: linear-gradient(#07334f20), url(assets/news-letter-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+.join-container {
+  padding: 200px 0;
+}
 .join-content-container {
   flex-direction: column;
   justify-content: center;
-  height: 533px;
   text-align: center;
 }
 .join-title {
@@ -252,7 +253,6 @@ body {
   display: flex;
   width: 70%;
 }
-
 #join-email {
   width: 100%;
   padding: 8px 20px;
