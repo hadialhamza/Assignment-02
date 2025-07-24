@@ -25,18 +25,28 @@
   .banner-title {
     font-size: 40px;
   }
-  .banner-image {
+  .banner-image,
+  .plants-lover-image-container,
+  .plants-lover-content {
     width: 100%;
   }
   .card-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+  #trusted-badge {
+    display: none;
+  }
+  .plants-lover-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
   }
 }
 
 /* Small device up to 640px*/
 @media screen and (max-width: 640px) {
   .container {
-    width: 95%;
+    width: 93%;
   }
   .title-primary {
     font-size: 24px;
@@ -73,6 +83,13 @@
     font-size: 16px;
   }
   .card-btn {
-    padding: 16px 0;
+    padding: 10px 0;
+  }
+  .plants-lover-subtitle {
+    width: 100%;
+  }
+  .plants-lover-container {
+    margin-top: 40px;
+    gap: 18px;
   }
 }

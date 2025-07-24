@@ -137,17 +137,28 @@ body {
   gap: 60px;
   margin-top: 210px;
 }
-.plants-lover-image {
+.plants-lover-image-container {
+  position: relative;
   width: 50%;
   max-width: 540px;
 }
-.plants-lover-image img {
+#trusted-badge {
+  position: absolute;
+  top: -127px;
+  right: -93px;
+  width: 286px;
+}
+.plants-lover-image {
   width: 100%;
   margin: 0 auto;
 }
 .plants-lover-content {
   width: 50%;
   max-width: 540px;
+}
+.plants-lover-subtitle {
+  margin-top: 20px;
+  width: 88%;
 }
 .plants-lover-content li {
   margin-bottom: 20px;
