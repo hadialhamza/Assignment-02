@@ -1,7 +1,7 @@
 /* Large device up to 1280px*/
 @media screen and (max-width: 1280px) {
   .container {
-    width: 98%;
+    width: 95%;
   }
 }
 
@@ -53,6 +53,11 @@
   }
   #latest-card-2 button {
     font-size: 18px;
+  }
+  .footer-content-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -120,5 +125,10 @@
   }
   .join-btn {
     padding: 12px 20px;
+  }
+  .footer-content-container {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
   }
 }

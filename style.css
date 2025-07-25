@@ -123,7 +123,7 @@ a {
   transition: all 0.2s ease-in;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .card-image,
 .card-image img {
@@ -184,6 +184,7 @@ a {
 .plants-lover-content li {
   margin-bottom: 20px;
   margin-left: 20px;
+  list-style: disc;
 }
 
 /* Latest deal section style */
