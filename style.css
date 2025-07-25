@@ -112,12 +112,18 @@ a {
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
-  row-gap: 30px;
+  gap: 30px;
 }
 .card {
   flex-direction: column;
   gap: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px #c8c7cc;
+  transition: all 0.2s ease-in;
+}
+.card:hover {
+  transform: scale(1.05);
 }
 .card-image,
 .card-image img {
@@ -137,6 +143,15 @@ a {
 }
 
 /* Plants lover section style*/
+/* Keyframe for animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .plants-lover-container {
   justify-content: space-around;
   gap: 60px;
@@ -148,6 +163,7 @@ a {
   max-width: 540px;
 }
 #trusted-badge {
+  animation: spin 4s linear infinite;
   position: absolute;
   top: -127px;
   right: -93px;
@@ -265,4 +281,16 @@ a {
 }
 .join-btn {
   padding: 19px 50px;
+}
+
+/* Footer section style */
+.footer-content-container {
+  margin: 50px auto;
+  gap: 30px;
+}
+.footer-logo-container {
+  max-width: 360px;
+}
+.footer-logo-container img {
+  margin-bottom: 16px;
 }
